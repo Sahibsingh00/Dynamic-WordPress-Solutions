@@ -1,0 +1,168 @@
+
+<main>
+
+    <section class="secure_checkout_section">
+        <div class="container_secure_section flex_column container">
+          
+            <h1>Secure Checkout</h1>
+            <div class="secure_items_Container flex_row">
+                <div class="secure_items">
+                  <img class="w_auto" src="assets/images/gradient-arrow-clockwise-24-filled.svg" alt="">
+
+                    <h4>30-day Refund Policy Assurance</h4>
+                </div>
+                <div class="secure_items">
+                  <img class="w_auto" src="assets/images/gradient-lock.svg" alt="">
+
+                    <h4>Secure Payment System</h4>
+                </div>
+                <div class="secure_items">
+                  <img class="w_auto" src="assets/images/gradient-message-solid.svg" alt="">
+
+                    <h4>24/7 Customer Support</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form_container">
+        <div class="container flex_row ">
+            <div class="login_form flex_column ">
+                <div class="coupon_container flex_column">
+                    <h5>If you have a coupon code, please apply it below</h5>
+                    <div class="coupon_code_form flex_row">
+                        <input class="pad_input" type="text" placeholder="Coupon code">
+                        <button class="global_btn btn_blue">Apply Coupon</button>
+                    </div>
+                </div>
+                <div class="second_form flex_column">
+                    <div class="two_inputs flex_row">
+                        <input class="pad_input" type="text" placeholder="First name">
+                        <input class="pad_input" type="text" placeholder="Last name">
+                    </div>
+                    <div class="flex_column">
+                        <input class="pad_input" type="text" placeholder="Company name   ( optional )">
+                        <input class="pad_input" type="text" placeholder="Country">
+                        <input class="pad_input" type="text" placeholder="Your email">
+                        <input class="pad_input" type="text" placeholder="Create account password">
+                        <input class="pad_input" type="text" placeholder="Website">
+                        <textarea name="" id="" cols="30" rows="10" 
+                            placeholder="Additional information   ( optional )"></textarea>
+                    </div>
+                    <svg width="150" height="148" viewBox="0 0 150 148" fill="none"
+                        class="position_absolute star6_bottom" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.2">
+                            <path
+                                d="M75 0L76.2683 34.2209C77.0442 55.1571 93.8432 71.9475 114.78 72.7127L150 74L114.78 75.2873C93.8432 76.0525 77.0442 92.8429 76.2683 113.779L75 148L73.7317 113.779C72.9558 92.8429 56.1568 76.0525 35.2202 75.2873L0 74L35.2202 72.7127C56.1568 71.9475 72.9558 55.1571 73.7317 34.2209L75 0Z"
+                                fill="#1D5AFF" />
+                            <path
+                                d="M112 9.91406L95.9879 40.1843C86.1918 58.7036 92.345 81.644 110.094 92.775L139.952 111.5L108.807 95.0047C90.2925 85.1991 67.3489 91.3405 56.2088 109.084L38 138.086L54.0121 107.816C63.8082 89.2963 57.655 66.3559 39.906 55.2249L10.0481 36.4999L41.1933 52.9952C59.7075 62.8008 82.6511 56.6594 93.7912 38.916L112 9.91406Z"
+                                fill="#1D5AFF" />
+                            <path
+                                d="M139.086 37L110.084 55.2088C92.3406 66.3489 86.1991 89.2924 96.0047 107.807L112.5 138.952L93.7751 109.094C82.6441 91.345 59.7037 85.1918 41.1844 94.9879L10.9141 111L39.9161 92.7912C57.6594 81.6511 63.8008 58.7075 53.9953 40.1933L37.5 9.04809L56.2249 38.906C67.3559 56.655 90.2963 62.8082 108.816 53.0121L139.086 37Z"
+                                fill="#1D5AFF" />
+                        </g>
+                    </svg>
+
+                </div>
+            </div>
+            <div class="payment_form border_radius_10">
+                <div class="Payment_box  border_radius_10 flex_column">
+                    
+                    <div class="flex_row Payment_details_items">
+                        <h5 style=" width: 59%;">
+                            WordPress Maintenance - Perform ( Monthly ) x 1
+                        </h5>
+                        <div class="price">
+                            $ 199 <br>
+                            <span style="font-size:14px; font-weight: 400;">/month</span>
+                        </div>
+                    </div>
+                    <div class="flex_row Payment_details_items">
+                        <h5 style="width: 59%;">
+                            Total
+                        </h5>
+                        <div class="price">
+                            $ 199
+                        </div>
+                    </div>
+                    <div class="flex_row Payment_details_items">
+                        <h5 style="width: 59%;">
+                            Subtotal
+                        </h5>
+                        <div class="price">
+                            $ 199
+                        </div>
+                    </div>
+                    <div class="flex_row Payment_details_items ">
+                        <h5 style="width: 59%;">
+                            Recurring total
+                        </h5>
+                        <div class="price recuuring">
+                            <span class="textblue">$ 199</span> /month
+                            <p class="para_pay">First renewal : January 18, 2024</p>
+                        </div>
+                    </div>
+                    <div class="radio_button_selector flex_row">
+                        <input type="radio" class="radio_button">
+                        <h5>Credit Card ( Stripe )</h5>
+                    </div>
+                    <div class="radio_button_selector flex_row">
+                        <input type="radio" checked={true} class="radio_button">
+                        <div class="flex_column">
+                            <h5>Debit Card</h5>
+                        </div>
+                    </div>
+                    <div class="debit_card_form flex_column">
+                        <input  type="text" class="width_full_input" placeholder="Card number">
+                        <div class="debit_input_two flex_row">
+                            <input  type="text" class="width_full_input" placeholder="Expires">
+                            <input  type="text" class="width_full_input" placeholder="CSC">
+                        </div>
+                        
+                        <div class="billin_Address_container flex_row">
+                            <h5>Billing address</h5>
+                            <div class="Country_dropdown">
+                                <img class="w_auto" src="assets/images/flag-canada.svg" alt="">
+                                <img class="w_auto" src="assets/images/down_arrow.svg" alt="">
+
+                            </div>
+                        </div>
+                        <div class="debit_input_two flex_row">
+                            <input type="text" class="width_full_input" placeholder="First Name">
+                            <input type="text" class="width_full_input" placeholder="Last Name">
+                        </div>
+                        <input type="text" class="width_full_input " placeholder="ZIP Code">
+                        <input type="text" class="width_full_input" placeholder="Mobile">
+                        <div class="flex_row conditions_container margin_Checkbox">
+                            <input type="checkbox" class="form_Checkbox" />
+                            <p style="font-size: 16px;">By continuing, you confirm you’re 18 years or older</p>
+                        </div>
+                        <button class="btn_blue global_btn debit_button flex_row">
+                           <img class="w_auto" src="assets/images/white-card.svg" alt="">
+                            <span> Debit Or Credit Card</span>
+                        </button>
+                    </div>
+                    <p style="font-size: 15px;">
+                        Your personal data will be used to process your order, support your experience throughout
+                        this
+                        website, and for other purposes described in our privacy policy.
+                    </p>
+                    <div class="flex_row conditions_container">
+                        <input type="checkbox" class="form_Checkbox" />
+                        <p style="font-size: 16px;">I have read and agree to the website <span
+                                class="underline_blue">terms and conditions </span><span
+                                style="color: red;">*</span></p>
+                    </div>
+                    <button class="global_btn  flex_row paypal_button">
+                        <span>Pay With </span>
+                        <img class="w_auto" src="assets/images/paypal.svg" alt="">
+
+
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
